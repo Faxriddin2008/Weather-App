@@ -1,5 +1,13 @@
 {
-  "expo": {
+  "expo": { 
+    "plugins": [
+          [
+            "expo-contacts",
+            {
+              "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
+            }
+          ]
+        ],
     "name": "weather-app",
     "slug": "weather-app",
     "version": "1.0.0",
